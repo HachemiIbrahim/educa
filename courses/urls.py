@@ -48,6 +48,11 @@ urlpatterns = [
         views.ModuleContentListView.as_view(),
         name="module_content_list",
     ),
+    path(
+        "<pk>/module/",
+        views.CourseModuleUpdateView.as_view(),
+        name="course_module_update",
+    ),
     # path(
     #     "module/order/",
     #     views.ModuleOrderView.as_view(),
