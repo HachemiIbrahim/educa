@@ -78,7 +78,7 @@
       mode: 'same-origin'
   }
 
-  {% comment %} const moduleOrderUrl = '{% url "module_order" %}'; {% endcomment %}
+  const moduleOrderUrl = '{% url "module_order" %}';
 
   sortable('#modules', {
     forcePlaceholderSize: true,
@@ -101,7 +101,7 @@
     fetch(moduleOrderUrl, options)
   });
 
-  {% comment %} const contentOrderUrl = '{% url "content_order" %}'; {% endcomment %}
+  const contentOrderUrl = '{% url "content_order" %}';
 
   sortable('#module-contents', {
     forcePlaceholderSize: true,
