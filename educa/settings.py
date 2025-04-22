@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     "embed_video",
     "debug_toolbar",
     "rest_framework",
+    "chat",
+    "channels",
 ]
 
 MIDDLEWARE = [
@@ -135,6 +137,7 @@ USE_I18N = True
 
 USE_TZ = True
 
+ASGI_APPLICATION = "educa.routing.application"
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
