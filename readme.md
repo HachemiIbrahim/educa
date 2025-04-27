@@ -1,6 +1,6 @@
 # Educa - E-Learning Platform
 
-Educa is an online learning platform (LMS) built with Django.
+Educa is an online learning platform built with Django.
 
 ## Features
 
@@ -17,15 +17,6 @@ Educa is an online learning platform (LMS) built with Django.
 - **REST API**:
   - Exposes course data with Django REST Framework
 
-## Technologies Used
-
-- Python 3
-- Django 5
-- Django REST Framework
-- Django Channels
-- Redis
-- Docker (for Redis setup)
-- SQLite
 
 ## Installation
 
